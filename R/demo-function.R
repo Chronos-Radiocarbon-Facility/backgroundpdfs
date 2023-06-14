@@ -7,6 +7,7 @@
 #' @param input Some data
 #'
 #' @importFrom dplyr row_number
+#' @importFrom dplyr mutate
 #' @importFrom magrittr %>%
 #'
 #' @export
