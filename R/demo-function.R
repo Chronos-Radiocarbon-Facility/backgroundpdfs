@@ -20,6 +20,7 @@ plot_something <- function(input){
     geom_point(data = input, aes(x = index, y = age)) +
     geom_errorbar(data = input, aes(x = index, y = age, ymin = age - error, ymax = age + error)) +
     labs(x = 'Sample', y = 'Age') +
+    ggtitle('Res Plot') +
     theme_bw()
   p
 }
